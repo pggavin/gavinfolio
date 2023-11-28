@@ -29,6 +29,7 @@
 .articles-wrapper {
 	padding-top: 50px;
 	padding-bottom: 50px;
+	padding-left: 25px;
 	display: flex;
 	flex-direction: column;
 }
@@ -41,7 +42,7 @@
 	width: 100%;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 2048px) {
 	.articles-title {
 		width: 100% !important;
 	}

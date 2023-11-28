@@ -1,11 +1,16 @@
 :root {
 	/* ------- colors ------- */
-	--primary-color: #27272a;
-	--secondary-color: #65656d;
-	--tertiary-color: #acacb4;
-	--quaternary-color: #e4e4e7;
-	--link-color: #14b8a6;
+	--primary-color: #ff6363;
+	--secondary-color: #adc2ec;
+	--tertiary-color: #5c94ac;
+	--quaternary-color: #2d7c9a;
+	--link-color: #e4799a;
+	--primary-background: #2c2b4b;
+	--secondary-background: #53476c;
+	--tertiary-background: #1b1834;
 	/* ---------------------- */
+
+	background-color: #09051d;
 
 	/* ------- fonts ------- */
 	--primary-font: "Heebo", sans-serif;

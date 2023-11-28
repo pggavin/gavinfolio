@@ -1,35 +1,32 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
 import "./style/article.css";
 
 const Article = (props) => {
-	const { date, title, description, link } = props;
+	const { title, link } = props;
 
 	return (
-		<React.Fragment>
-			<div className="article">
-				<div className="article-left-side">
-					<div className="article-date">{date}</div>
+		<div className="article-container">
+			<div className="wrapper">
+				<div className="image-wrapper">
+					<img
+						src="https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1583&q=80"
+						alt="Article Image"
+					/>
 				</div>
-
-				<Link to={link}>
-					<div className="article-right-side">
-						<div className="article-title">{title}</div>
-						<div className="article-description">{description}</div>
-						<div className="article-link">
-							Read Article{" "}
-							<FontAwesomeIcon
-								style={{ fontSize: "10px" }}
-								icon={faChevronRight}
-							/>
-						</div>
-					</div>
-				</Link>
+				<div className="header-wrapper">
+					<h1>{title}</h1>
+					<h2>
+						<a href={link} className="article-link">
+							See Project{" "}
+							<FontAwesomeIcon style={{ fontSize: "15px" }} icon={faChevronRight} />
+						</a>
+					</h2>
+				</div>
 			</div>
-		</React.Fragment>
+		</div>
 	);
 };
 

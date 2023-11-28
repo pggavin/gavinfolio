@@ -3,7 +3,7 @@ import React from "react";
 function article_1() {
 	return {
 		date: "7 May 2023",
-		title: "The Benefits of Cloud Computing",
+		title: "Neon Express",
 		description:
 			"Cloud computing offers a range of benefits, including cost savings and increased flexibility. Find out why more businesses are turning to the cloud.",
 		keywords: [
@@ -42,7 +42,7 @@ function article_1() {
 function article_2() {
 	return {
 		date: "7 May 2023",
-		title: "Artificial Intelligence in Healthcare",
+		title: "Gem Defender",
 		description:
 			"AI is transforming the healthcare industry, from improving patient outcomes to streamlining operations. Discover the latest applications of this game-changing technology.",
 		style: ``,

@@ -18,7 +18,7 @@
 }
 
 .page-content {
-	background-color: white;
+	background-color: #2c2b4b;
 	position: relative;
 }
 
@@ -28,9 +28,9 @@
 	position: absolute;
 	top: 0;
 	bottom: 0;
-	width: calc((100% - 1200px) / 2);
-	background-color: #fafafa;
-	border: 1px solid #f4f4f5;
+	width: calc((85% - 1200px) / 2);
+	background-color: #09051c;
+	border: 1px solid #09051c;
 }
 
 .page-content:before {
@@ -66,7 +66,7 @@
 }
 
 .page-footer {
-	position: block;
+	position: absolute;
 }
 
 .page-footer::before {

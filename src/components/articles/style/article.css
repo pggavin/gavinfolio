@@ -9,12 +9,12 @@
 }
 
 .article-left-side {
-	min-width: 20%;
-	max-width: 20%;
+	min-width: 30%;
+	max-width: 30%;
 }
 
 .article-right-side {
-	flex-basis: 80%;
+	flex-basis: 70%;
 	min-width: 700px;
 	mix-blend-mode: normal;
 	border-radius: 20px;
@@ -23,7 +23,7 @@
 }
 
 .article-right-side:hover {
-	background: #fafafa;
+	background: var(--secondary-background);
 	opacity: 1;
 	transition: background-color 0.3s ease-in-out;
 }
@@ -57,13 +57,99 @@
 
 @media (max-width: 1024px) {
 	.article-left-side {
-		min-width: 10%;
-		max-width: 10%;
+		min-width: 20%;
+		max-width: 20%;
 	}
 
 	.article-right-side {
-		flex-basis: 90%;
+		flex-basis: 80%;
 		min-width: 85%;
 		max-width: 85%;
 	}
+}
+
+.article-container .wrapper {
+	position: relative;
+	height: 300px;
+	width: 600px;
+	margin: 50px 0;
+	display: flex;
+	flex-direction: row;
+	transition: all 200ms ease-in-out;
+}
+
+.article-container .image-wrapper {
+	height: 300px;
+	width: 450px;
+	overflow: hidden;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 200ms ease-in-out;
+}
+
+.article-container img {
+	height: 300px;
+	width: 450px;
+	object-fit: cover;
+	object-position: top;
+	transition: all 200ms ease-in-out;
+}
+
+.article-container .book-design-image {
+	object-position: center;
+}
+
+.article-container .header-wrapper {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	height: 300px;
+	width: 300px;
+	left: 380px;
+	transition: all 200ms ease-in-out;
+	overflow: hidden;
+	pointer-events: none;
+}
+
+.article-container h1 {
+	position: relative;
+	bottom: 0;
+	height: 300px;
+	color: #fff;
+	font-size: 40px;
+	font-family: Oswald;
+	text-transform: uppercase;
+	transition: all 200ms ease-in-out;
+}
+
+.article-container:hover img {
+	transform: scale(2);
+}
+
+.article-container:hover h1 {
+	bottom: 300px;
+	transform: scale(0.4);
+}
+
+.article-container:hover .image-wrapper {
+	width: 800px;
+}
+
+.article-container .article-link {
+	text-decoration: none;
+	color: #fff;
+	font-size: 24px;
+	font-weight: bold;
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
+
+.article-container .header-wrapper h2 {
+	opacity: 0;
+	transition: opacity 200ms ease-in-out;
+}
+
+.article-container:hover .header-wrapper h2 {
+	opacity: 1;
 }

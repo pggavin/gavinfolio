@@ -1,11 +1,11 @@
 @import "../../../data/styles.css";
 
 .footer {
-	display: flex;
-	padding-top: 25px;
-	margin-top: 50px;
-	padding-bottom: 25px;
+	display: none;
+	margin-top: 25px;
 	align-items: center;
+	width: 200%;
+	background-color: var(--secondary-background);
 }
 
 .footer-links,
@@ -45,15 +45,13 @@
 	text-align: right;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 250em) {
 	.footer {
-		flex-direction: column;
-		height: 85px;
+		height: 5px;
 	}
 
 	.footer-links {
-		display: flex;
-		width: 100%;
+		width: 200%;
 		justify-content: center;
 	}
 

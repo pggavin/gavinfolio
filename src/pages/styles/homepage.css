@@ -8,7 +8,9 @@
 }
 
 .homepage-container {
-	padding-top: 25px;
+	padding: 25px;
+	background-color: var(--tertiary-background);
+	border-radius: 50px;
 }
 
 .homepage-first-area {
