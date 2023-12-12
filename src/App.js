@@ -12,6 +12,7 @@ import Notfound from "./pages/404";
 
 import { TRACKING_ID } from "./data/tracking";
 import "./app.css";
+// ... import statements and other code ...
 
 function App() {
 	useEffect(() => {
@@ -22,6 +23,7 @@ function App() {
 
 	return (
 		<div className="App">
+			{/* Render the routes */}
 			<Routes>
 				<Route path="/" element={<Homepage />} />
 				<Route path="/about" element={<About />} />
@@ -31,6 +33,22 @@ function App() {
 				<Route path="/contact" element={<Contact />} />
 				<Route path="*" element={<Notfound />} />
 			</Routes>
+
+			{/* Add the animated background here */}
+			<div className="area">
+				<ul className="circles">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
 		</div>
 	);
 }
