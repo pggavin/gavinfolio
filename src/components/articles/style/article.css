@@ -2,6 +2,7 @@
 
 .article {
 	display: flex;
+	flex-wrap: wrap; /* Allow elements to wrap to the next row on smaller screens */
 }
 
 .article a {
@@ -9,19 +10,26 @@
 }
 
 .article-left-side {
+	flex-grow: 1; /* Allow it to grow and shrink as needed */
 	min-width: 30%;
 	max-width: 30%;
+	margin-right: 20px; /* Add some spacing between left and right sides */
 }
 
 .article-right-side {
-	flex-basis: 70%;
-	min-width: 700px;
-	mix-blend-mode: normal;
+	flex-grow: 2; /* Allow it to grow and shrink as needed */
+	min-width: 0; /* Reset min-width */
 	border-radius: 20px;
 	opacity: 0.8;
 	padding: 30px;
 	text-align: left;
 }
+
+/* Limit image width so it doesn't overlap */
+.article-container img {
+	max-width: 100%; /* Limit image width to its container */
+}
+
 
 .article-right-side:hover {
 	background: var(--secondary-background);
@@ -40,6 +48,10 @@
 	font-size: 16px;
 	text-align: left;
 	font-weight: 600;
+	white-space: nowrap; /* Prevent title from wrapping to multiple lines */
+	overflow: hidden;
+	text-overflow: ellipsis; /* Show ellipsis (...) for long titles */
+
 }
 
 .article-description {
@@ -57,16 +69,23 @@
 	font-weight: 700;
 }
 
+.article-see-project-link {
+	color: #fff; /* or any color you originally had for 'See Project' */
+	font-size: 24px;
+	font-weight: bold;
+	/* Add any other styles specific to 'See Project' link */
+}
+
 @media (max-width: 1024px) {
 	.article-left-side {
-		min-width: 20%;
-		max-width: 20%;
+		min-width: 100%; /* Make it full width on smaller screens */
+		max-width: 100%;
+		margin-right: 0; /* Remove spacing */
 	}
 
 	.article-right-side {
-		flex-basis: 80%;
-		min-width: 85%;
-		max-width: 85%;
+		flex-grow: 1; /* Allow it to grow and shrink on smaller screens */
+		min-width: 0; /* Reset min-width */
 	}
 }
 
@@ -165,7 +184,7 @@
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-image: linear-gradient(135deg, rgba(209, 175, 255, 0), rgba(68, 62, 255, 0.5));
+	background-image: linear-gradient(135deg, rgba(209, 175, 255, 0), rgba(40, 27, 82, 0.5));
 	opacity: 0;
 	transition: opacity 0.6s ease-in-out;
 	border-radius: 5px;

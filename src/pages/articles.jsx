@@ -59,6 +59,8 @@ const Articles = () => {
 											key={(index + 1).toString()}
 											date={article().date}
 											title={article().title}
+											image={article().imageUrl}
+											gif={article().gifUrl}
 											description={article().description}
 											link={"/article/" + (index + 1)}
 										/>
