@@ -4,7 +4,7 @@ function article_1() {
 	return {
 		date: "7 May 2023",
 		title: "Neon Express",
-		imageUrl: "gavingold_robostrike",
+		imageUrl: "gavingold_neonexpress",
 		gifUrl: "gavingold_placeholder",
 		description:
 			"Cloud computing offers a range of benefits, including cost savings and increased flexibility. Find out why more businesses are turning to the cloud.",
@@ -44,8 +44,8 @@ function article_1() {
 function article_2() {
 	return {
 		date: "7 May 2023",
-		title: "Gem Defender",
-		imageUrl: "gavingold_robostrike",
+		title: "Penguin Rush",
+		imageUrl: "gavingold_penguinrush",
 		gifUrl: "gavingold_placeholder",
 		description:
 			"AI is transforming the healthcare industry, from improving patient outcomes to streamlining operations. Discover the latest applications of this game-changing technology.",
@@ -67,8 +67,8 @@ function article_2() {
 function article_3() {
 	return {
 		date: "7 May 2023",
-		title: "RoboStrike 3.0",
-		imageUrl: "gavingold_robostrike",
+		title: "Gem Defender",
+		imageUrl: "gavingold_gemdefender",
 		gifUrl: "gavingold_placeholder",
 		description:
 			"AI is transforming the healthcare industry, from improving patient outcomes to streamlining operations. Discover the latest applications of this game-changing technology.",
@@ -90,8 +90,8 @@ function article_3() {
 function article_4() {
 	return {
 		date: "7 May 2023",
-		title: "Penguin Rush",
-		imageUrl: "gavingold_penguinrush",
+		title: "RoboStrike 3.0",
+		imageUrl: "gavingold_robostrike",
 		gifUrl: "gavingold_placeholder",
 		description:
 			"AI is transforming the healthcare industry, from improving patient outcomes to streamlining operations. Discover the latest applications of this game-changing technology.",

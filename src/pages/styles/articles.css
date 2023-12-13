@@ -35,15 +35,9 @@
 }
 
 .articles-article {
-	padding-top: 0px;
-	padding-left: 35px;
+	padding-top: 20px;
 	padding-bottom: 20px;
-	flex: 1 1 calc(50% - 20px);
-	width: 20%;
-	margin-bottom: 20px;
-	box-sizing: border-box;
 }
-
 
 @media (max-width: 768px) {
 	.articles-article {

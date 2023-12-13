@@ -9,22 +9,6 @@
 	text-decoration: none;
 }
 
-.article-left-side {
-	flex-grow: 1; /* Allow it to grow and shrink as needed */
-	min-width: 30%;
-	max-width: 30%;
-	margin-right: 20px; /* Add some spacing between left and right sides */
-}
-
-.article-right-side {
-	flex-grow: 2; /* Allow it to grow and shrink as needed */
-	min-width: 0; /* Reset min-width */
-	border-radius: 20px;
-	opacity: 0.8;
-	padding: 30px;
-	text-align: left;
-}
-
 /* Limit image width so it doesn't overlap */
 .article-container img {
 	max-width: 100%; /* Limit image width to its container */
@@ -35,6 +19,14 @@
 	background: var(--secondary-background);
 	opacity: 1;
 	transition: background-color 0.6s ease-in-out;
+}
+
+.article-date {
+	color: white;
+	font-size: 14px;
+	margin-top: -20px; /* Position over the bottom of the article */
+	text-align: right; /* Align text to the right */
+	width: 100%; /* Ensure it takes the full width of its container */
 }
 
 .article-date {
@@ -51,7 +43,6 @@
 	white-space: nowrap; /* Prevent title from wrapping to multiple lines */
 	overflow: hidden;
 	text-overflow: ellipsis; /* Show ellipsis (...) for long titles */
-
 }
 
 .article-description {
@@ -100,7 +91,7 @@
 
 .article-container .image-wrapper {
 	height: 300px;
-	width: 450px;
+	width: 400px;
 	overflow: hidden;
 	border-radius: 5px;
 	cursor: pointer;
@@ -109,7 +100,7 @@
 
 .article-container img {
 	height: 300px;
-	width: 450px;
+	width: 400px;
 	object-fit: cover;
 	object-position: top;
 	transition: all 400ms ease-in-out;
@@ -133,13 +124,14 @@
 
 .article-container h1 {
 	position: relative;
-	bottom: 0;
+	bottom: 300px;
 	height: 300px;
 	color: #fff;
 	font-size: 40px;
 	font-family: Oswald;
 	text-transform: uppercase;
 	transition: all 400ms ease-in-out;
+	transform: scale(0.4);
 	z-index: 2;
 }
 
@@ -149,7 +141,8 @@
 
 .article-container:hover h1 {
 	bottom: 300px;
-	transform: scale(0.4);
+	transform: scale(1.0);
+	bottom: 0;
 }
 
 .article-container:hover .image-wrapper {
@@ -184,7 +177,7 @@
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-image: linear-gradient(135deg, rgba(209, 175, 255, 0), rgba(40, 27, 82, 0.5));
+	background-image: linear-gradient(-135deg, rgba(209, 175, 255, 0), rgba(68, 62, 255, 0.5));
 	opacity: 0;
 	transition: opacity 0.6s ease-in-out;
 	border-radius: 5px;
