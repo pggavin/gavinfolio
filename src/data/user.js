@@ -16,21 +16,20 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "I love UI and UX programming and stuff :D.",
+		title: "UI/UX & Game Programming: Simple, Functional, Playful",
 		description:
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis, orci nec malesuada tristique, purus dolor pellentesque turpis, id tincidunt sem tortor quis felis. Donec dignissim viverra lobortis. Aenean purus mauris, semper et elit quis, ultricies pharetra leo. Proin dapibus ullamcorper nibh, vel interdum erat aliquet in. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent sed ex purus. Mauris sed dictum augue. Quisque arcu sem, tempor eget nulla eu, lobortis malesuada eros. Maecenas ac mi scelerisque, tempor nulla mattis, vulputate magna. Ut diam lectus, efficitur in dictum nec, mollis eget quam.",
+			"Welcome! I love working with engines like Unreal & Unity, with a focus on UI/UX & game programming. I've a lot of time working with both game designers & digital designers, and I believe that the most defining part of a game is its polish. I love working in teams, and I enjoy the process of iterating and refining ideas together to make experiences that resonate with players. ",
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: "I’m Gavin Van Hussen. Crafting digital experiences from Vancouver, BC.",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"Throughout my career, I've had the opportunity to work on a diverse array of projects, and each one has contributed to my growth as a professional. I have a particular passion for game development, combining my skills in UI/UX design with robust programming to create immersive experiences. I'm a proponent of open-source development and enjoy when others engage with my work—whether to learn, contribute or offer fresh perspectives. If my projects pique your interest, I welcome you to dive into the code, provide suggestions, or share your insights. Collaboration is the cornerstone of innovation, and I'm always eager to connect and create with fellow enthusiasts."
 	},
-
 	articles: {
-		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
+		title: "Hi! I’m all about making things work beautifully and sharing insights along the way.",
 		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
+			"Dive into my collection of articles where I chat about my past work, my programming and design process, and the occasional deep-dive into how I solve design challenges. It’s a casual space for sharing knowledge and documenting my learning process."
 	},
 
 	projects: [
