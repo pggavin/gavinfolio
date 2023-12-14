@@ -7,7 +7,7 @@ function article_1() {
 		imageUrl: "gavingold_neonexpress",
 		gifUrl: "gavingold_neonexpress",
 		description:
-			"Cloud computing offers a range of benefits, including cost savings and increased flexibility. Find out why more businesses are turning to the cloud.",
+			"Neon Express is a 3D 3rd-person fast-paced runner platformer where you play as Velo, a pizza delivery girl, parkouring atop a futuristic city between unusually tall skyscrapers and high-speed trains. Deliver the pizzas as fast as you can to satisfy the customers and become The Parzzaria's top employee!",
 		keywords: [
 			"The Benefits of Cloud Computing",
 			"Tharindu",
@@ -58,7 +58,7 @@ function article_2() {
 		imageUrl: "gavingold_penguinrush",
 		gifUrl: "gavingold_placeholder",
 		description:
-			"AI is transforming the healthcare industry, from improving patient outcomes to streamlining operations. Discover the latest applications of this game-changing technology.",
+			"Use your keyboard arrow keys to move the penguin across the ice and grab as many yummy snacks as possible and gain points. Zoom from side to side by pressing the space bar. And catch the big fish to boost your speed. You can use those points in the shop to buy different penguins! But watch out for the oil slick, barrels and other obstacles that can slow your penguin down. Hit too many obstacles and you'll have to start over.",
 		style: ``,
 		keywords: [
 			"Artificial Intelligence in Healthcare",
@@ -70,13 +70,11 @@ function article_2() {
 			<React.Fragment>
 				<div className="article-content">
 					<div className="projectDescription">
-						Robostrike 3.0 is a single-player 3rd person isometric rogue-lite where you play as a robot who can possess and take control of other robots- use this skill to save humanity! Players lose if they die, so switching between robots is the key to victory!!
+						Use your keyboard arrow keys to move the penguin across the ice and grab as many yummy snacks as possible and gain points. Zoom from side to side by pressing the space bar. And catch the big fish to boost your speed. You can use those points in the shop to buy different penguins! But watch out for the oil slick, barrels and other obstacles that can slow your penguin down. Hit too many obstacles and you'll have to start over.
 
-						Worked on "RoboStrike 3.0", developed as a team project for the Programming for Games, Web & Mobile program at Vancouver Film School. Worked implementing gameplay/combat mechanics, UI design, UI implementation, & shader development in Unity Engine.
-
-						• Programmed in a team of 5.
-						• Coded enemy possession system, shaders, adaptive aiming
-						system, UI, and custom pooling system for enemies and attacks.
+						• Programmed for and led a team of 4, using feedback from CBC
+						and guidance from Ubisoft mentors
+						• Designed and optimized for use in modern browsers.
 					</div>
 				</div>
 			</React.Fragment>
@@ -91,7 +89,7 @@ function article_3() {
 		imageUrl: "gavingold_gemdefender",
 		gifUrl: "gavingold_gemdefender",
 		description:
-			"AI is transforming the healthcare industry, from improving patient outcomes to streamlining operations. Discover the latest applications of this game-changing technology.",
+			"Follow Chud on his fight against Dr Soystein's 'jak army in this spine-tingling survival shooter.",
 		style: ``,
 		keywords: [
 			"Artificial Intelligence in Healthcare",
@@ -102,6 +100,8 @@ function article_3() {
 		body: (
 			<React.Fragment>
 				<div className="projectDescription">
+					Follow Chud on his fight against Dr Soystein's 'jak army in this spine-tingling survival shooter.
+
 					• Programmed in a team of 2 for a commercial product selling over
 					1,000 copies in its first week on Steam.
 					• Managed the scope and schedule, making sure time was
