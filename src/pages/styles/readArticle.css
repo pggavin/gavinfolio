@@ -43,7 +43,7 @@
 .read-article-date-container {
 	border-left: 2px solid var(--quaternary-color);
 	color: var(--tertiary-color);
-	font-size: 16 px;
+	font-size: 16px;
 	align-items: center;
 	height: 22px;
 }

@@ -20,6 +20,10 @@
 	/* --------------------- */
 }
 
+.projectDescription{
+	color: var(--secondary-color);
+}
+
 a {
 	color: var(--link-color); /* This will apply your custom link color to all <a> elements */
 }
